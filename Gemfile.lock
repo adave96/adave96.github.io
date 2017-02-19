@@ -223,7 +223,6 @@ DEPENDENCIES
   guard
   jekyll-feed (~> 0.6)
   jekyll-theme-midnight (~> 0.0.3)
-  minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
