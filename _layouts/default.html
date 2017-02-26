@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<head>
+				<style>
+				.button {
+				    background-color: #6495ED;
+				    border: none;
+				    color: #00008B	;
+				    padding: 15px 32px;
+				    text-align: center;
+				    text-decoration: underline;	
+				    text-shadow: 3px 2px red
+				    display: inline-block;
+				    font-size: 14px;
+				    /*margin: 4px 2px;*/
+				    float: left;
+				    cursor: pointer;
+				}
+				</style>
+
+				<title>{{ page.title }}</title>
+				<!-- link to main stylesheet -->
+				<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-				<li><a href="/projects">Projects</a></li>
-				<li><a href="/publications">Publications</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+	        		<li><a href="/"class="button"><em>Home</em></a></li>
+		        	<li><a href="/about"class="button"><em>About</em></a></li>
+	        		<li><a href="/cv"class="button"><em>CV</em></a></li>
+				<li><a href="/projects"class="button"><em>Projects</em></a></li>
+				<li><a href="/publications"class="button"><em>Publications</em></a></li>
+	        		<li><a href="/blog"class="button"><em>Blog</em></a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
